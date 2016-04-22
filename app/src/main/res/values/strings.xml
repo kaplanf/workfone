@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">WorkFone</string>
+    <string name="loading">Loading...</string>
+    <string name="skip">Skip</string>
+    <string name="done">Done</string>
+    <string name="first_onboarding_message">The Workfone home screen shows all your Fones at once.</string>
+    <string name="second_onboarding_message">Each fone is a seperate \"phone inside a phone.\"</string>
+    <string name="third_onboarding_message">Touch \"Back\" to return to home screen.Ready? Let\'s go!</string>
+    <string name="token">Token: </string>
+    <string name="userId">userId: </string>
+    <string name="created">created: </string>
+    <string name="ttl">ttl: </string>
+    <string name="unauthorized">You have entered wrong username or password!</string>
+</resources>

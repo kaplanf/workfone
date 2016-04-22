@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/workfone_blue"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/showTokenFragmentIdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/showTokenFragmentIdText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/token"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/showTokenFragmentIdValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showTokenFragmentTtlContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showTokenFragmentIdContainer"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/showTokenFragmentTtlText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/ttl"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/showTokenFragmentTtlValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showTokenFragmentCreatedContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showTokenFragmentTtlContainer"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/showTokenFragmentCreatedText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/created"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/showTokenFragmentCreatedValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/showTokenFragmentUserIdContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/showTokenFragmentCreatedContainer"
+        android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/showTokenFragmentUserIdText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_weight="0.3"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:text="@string/userId"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/showTokenFragmentUserIdValue"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="30dp"
+            android:layout_toRightOf="@+id/showTokenFragmentUserIdText"
+            android:layout_weight="0.7"
+            android:gravity="center_vertical"
+            android:padding="10dp"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

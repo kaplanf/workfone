@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="workfone_blue">#146DB1</color>
+    <color name="dark_blue">#063A86</color>
+    <color name="light_blue">#FF4081</color>
+    <color name="warning_red">#D30000</color>
+    <color name="light_red">#FF9F9F</color>
+    <color name="light_color">#F0F0F0</color>
+
+</resources>
